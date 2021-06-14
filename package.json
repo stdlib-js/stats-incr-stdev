@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-stdev",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Compute a corrected sample standard deviation incrementally.",
   "license": "Apache-2.0",
   "author": {
