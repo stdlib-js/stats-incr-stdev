@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-stdev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compute a corrected sample standard deviation incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
