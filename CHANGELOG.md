@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2026-01-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`89c41ab`](https://github.com/stdlib-js/stdlib/commit/89c41ab21cf911bed3a67fbccebe6b129ddfc70a) - **test:** clean-up test messages and resolve lint errors _(by Athan Reines)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
