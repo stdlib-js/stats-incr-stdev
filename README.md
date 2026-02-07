@@ -63,6 +63,11 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2}
 ## Usage
 
 ```javascript
+import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-stdev/tags). For example,
+
+```javascript
 import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@v0.2.3-deno/mod.js';
 ```
 
@@ -122,7 +127,7 @@ s = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@v0.2.3-deno/mod.js';
+import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@deno/mod.js';
 
 var accumulator;
 var v;
