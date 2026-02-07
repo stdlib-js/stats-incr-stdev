@@ -63,6 +63,11 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2}
 ## Usage
 
 ```javascript
+import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-stdev/tags). For example,
+
+```javascript
 import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@v0.2.3-esm/index.mjs';
 ```
 
@@ -127,7 +132,7 @@ s = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@v0.2.3-esm/index.mjs';
+import incrstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-stdev@esm/index.mjs';
 
 var accumulator;
 var v;
